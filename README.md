@@ -26,6 +26,8 @@ objectClass: organizationalUnit
 ou: people
 ```
 
+## Usage
+
 ```ruby
   gem install 'ldap_cli'
 ```
@@ -56,8 +58,6 @@ ou: people
       - sn
       - mail
 ``` 
-
-## Usage
 
 $ ruby demo.rb
     
