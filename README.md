@@ -2,6 +2,9 @@
 
 Ldap::Cli is a Ruby util for reading/writing entries in an LDAP directory to/from CSV files. This tool creates entries in a directory under `ou=people,dc=example,dc=org` from a CSV file with the following attributes: `cn,sn,mail,uid`.
 
+## Gem Link
+  https://github.com/rngangadhar/ldap-cli
+  
 ## Pre Requisites
 
 Install OpenLDAP server.
