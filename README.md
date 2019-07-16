@@ -33,28 +33,28 @@ ou: people
 - To change the LDAP connection configuration we have to update config/database.yml
 
  ```yml
-	 development:
-	  :host: 'localhost'
-	  :port: 389
-	  :auth:
-	    :method: :simple
-	    :username: 'admin'
-	    :password: 'secret'
+   development:
+    :host: 'localhost'
+    :port: 389
+    :auth:
+      :method: :simple
+      :username: 'admin'
+      :password: 'secret'
 
  ```
 - To change ldap structure we have to update config/ldap.yml
 
 ```yml
-	base:
-	  'dc=example, dc=org'
+  base:
+    'dc=example, dc=org'
 
-	person:
-	  dn: 'ou=people, dc=example, dc=org'
-	  attrs:
-	    - uid
-	    - cn
-	    - sn
-	    - mail
+  person:
+    dn: 'ou=people, dc=example, dc=org'
+    attrs:
+      - uid
+      - cn
+      - sn
+      - mail
 ``` 
 
 ## Usage
